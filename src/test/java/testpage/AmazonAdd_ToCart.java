@@ -28,7 +28,10 @@ public class AmazonAdd_ToCart extends BaseTest {
 		System.out.println("Cart Title: " + carttitile);
 
 		
+		
 		Assert.assertTrue(producttitile.contains(carttitile), "Titile mismatch");
+		
+		System.out.println("Thanks for shopping with amazon");
 
 	}
 
