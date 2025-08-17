@@ -7,13 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class waitclass {
+public class Util_Class {
 
 	WebDriver driver;
 
 	WebDriverWait wait;
 
-	public waitclass(WebDriver driver) {
+	public Util_Class(WebDriver driver) {
 
 		this.driver = driver;
 

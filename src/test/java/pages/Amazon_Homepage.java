@@ -9,9 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import util.waitclass;
+import util.Util_Class;
 
-public class Amazon_Homepage extends waitclass {
+public class Amazon_Homepage extends Util_Class {
 
 	WebDriver driver;
 

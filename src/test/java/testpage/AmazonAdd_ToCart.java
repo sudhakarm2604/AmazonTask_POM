@@ -13,6 +13,7 @@ public class AmazonAdd_ToCart extends BaseTest {
 	public void AddtoCart(String productName) {
 
 		Amazon_Homepage homepage = new Amazon_Homepage(driver);
+		
 
 		homepage.searchbox(productName);
 
@@ -32,6 +33,7 @@ public class AmazonAdd_ToCart extends BaseTest {
 	//	Assert.assertTrue(producttitile.contains(carttitile), "Titile mismatch");
 		
 		System.out.println(" !!!!! Thanks for shopping with amazon!!!!!!!!! ");
+		System.out.println("Im commiting new code");
 
 	}
 
